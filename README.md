@@ -1,0 +1,2 @@
+# Spotify-practice
+Sptify application
