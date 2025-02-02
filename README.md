@@ -132,4 +132,4 @@ Spotifyアカウントの名前とプロフィール画像が表示
 ## 📹 動画
 アプリ全体の機能を動画にて確認いただけます。
 <video src="img/画面収録 .mov" controls="true"></video>
->>>>>>> fbf9253 (add img & README.md)
+
