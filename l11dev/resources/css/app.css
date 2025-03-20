@@ -1,0 +1,79 @@
+.text-xl{
+    color: green;
+}
+
+/* セットリスト関連===================================================== */
+
+#setlistSongs li {
+    border-bottom: 1px solid black; /* 下線を追加 */
+    padding: 10px 0; /* 適切な間隔を設定 */
+    width: 50%; /* リストアイテムの幅を全体に広げる */
+    display: flex; /* Flexbox を使用 */
+    justify-content: space-between; /* 左右に要素を配置 */
+    list-style: none; /* リストマーカーを非表示 */
+
+    cursor: grab;
+}
+#setlistSongs li.dragging {
+    opacity: 0.5;
+    border: 2px dashed black;
+    background-color: #f0f0f0;
+}
+
+/* プレイリスト関連===================================================== */
+
+#playlistSongs li {
+    border-bottom: 1px solid black; /* 下線を追加 */
+    padding: 10px 0; /* 適切な間隔を設定 */
+    width: 50%; /* リストアイテムの幅を全体に広げる */
+    display: flex; /* Flexbox を使用 */
+    justify-content: space-between; /* 左右に要素を配置 */
+    list-style: none; /* リストマーカーを非表示 */
+
+    cursor: grab;
+}
+
+#playlistSongs li.dragging {
+    opacity: 0.5;
+    border: 2px dashed black;
+    background-color: #f0f0f0;
+}
+
+/* myListsの削除ボタン===================================================== */
+
+/* ボタンを横並びに配置し、削除ボタンと詳細ボタンの間隔を空ける */
+.setlist-actions {
+    display: flex;
+    justify-content: space-between; /* 左寄せに配置 */
+    align-items: center; /* 垂直方向に中央揃え */
+
+}
+
+/* ボタンのスタイルを少し調整 */
+.setlist-actions button,
+.setlist-actions a {
+    margin-left: 0px; /* ボタンの間に少しスペースを追加 */
+}
+
+/* ブックマーク関連===================================================== */
+
+.bookmarked {
+    color: gold;
+}
+
+.not-bookmarked {
+    color: gray;
+}
+
+/* ページネーション関連===================================================== */
+
+.pagination a, .pagination span {
+    padding: 0.5rem 0.75rem;  /*矢印の周りの余白を調整 */
+}
+
+.pagination {
+    display: flex; /* 横並びにする */
+    /*justify-content: center;  センター寄せ */
+    padding: 0; /* 余白をリセット */
+    list-style: none; /* デフォルトのリストスタイルを削除 */
+}

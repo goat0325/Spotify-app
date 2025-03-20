@@ -1,0 +1,22 @@
+# Gitの管理ファイル
+#.git/
+
+# IDEの設定ファイル
+#.vscode/
+#.idea/
+
+# Node.jsの依存パッケージ
+#node_modules/
+
+# Composerの依存パッケージ
+#vendor/
+
+# 環境変数ファイル
+#.env
+
+# ログファイル
+#*.log
+
+# 一時ファイル
+#*.tmp
+#*.bak
